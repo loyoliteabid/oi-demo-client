@@ -35,7 +35,7 @@ const CustomDatePicker: React.FC = () => {
   };
 
   return (
-    <div className="flex gap-2 lg:gap-5 flex-col lg:flex-row">
+    <div className="flex gap-2 lg:gap-5 mx-auto flex-wrap">
       <div className="flex gap-3">
         <label className="w-10">From</label>
         <DatePicker
