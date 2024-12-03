@@ -45,6 +45,11 @@ const Header = () => {
           </button>
         )}
         {location.pathname === "/chart" && (
+          <div>
+            <p className="font-inter font-light text-2xl">Chart Viewer</p>
+          </div>
+        )}
+        {location.pathname === "/chart" && (
           <button
             onClick={() => navigate("/aqi-data")}
             className="text-sm font-inter hover:scale-105 uppercase shadow-sm shadow-primary px-4 rounded-lg"
